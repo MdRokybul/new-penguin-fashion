@@ -1,6 +1,9 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.bebas-font{
+    font-family: 'Bebas Neue', cursive;;
+}
 .my-primary-color{
     color: #FABE4C;
 }
@@ -18,15 +21,41 @@ body{
 .my-third-color{
     color: #363958;
 }
+
+.paragraph-color{
+    color: #3E3E3E;
+}
 .my-menu{
     color: #3C3C3C;
     font-size: 16px;
     font-weight: 700;
 }
 
+
 .my-menu li{
     padding-left: 20px;
 }
 header{
     background-color: #FFFBF0;
+}
+
+.my-card-style{
+    height: 550px;
+    width: 370px;
+    border: none;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 4px 5px 10px lightgrey;
+}
+
+.my-img-box{
+    height: 327px;
+    width: 334px;
+    background-color: #F1F1F1;
+    margin: 0 auto;
+    margin-top: 16px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
