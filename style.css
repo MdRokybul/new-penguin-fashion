@@ -74,3 +74,11 @@ header{
     color: #FABE4C;
     display: inline-block;
 }
+
+.my-footer-card{
+    border: none;
+    background: lightgray;
+    border-radius: 20px;
+    height: 135px;
+    width: 489px;
+}
