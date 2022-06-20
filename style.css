@@ -14,6 +14,7 @@ body{
     width: 170px;
     height: 60px;
     border-radius: 10px;
+    color: white;
 }
 .my-button:hover{
     background-color: #A4BC46;
@@ -58,4 +59,18 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.product-title-style{
+    font-size: 24px;
+    font-weight: 600;
+    color: #363958;
+}
+
+.price-style{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: #FABE4C;
+    display: inline-block;
 }
